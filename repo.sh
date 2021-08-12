@@ -9,8 +9,8 @@ mv /Users/wyleleung1/Documents/personal/Interview-guide-dist/docs/* ./
 echo "---------"
 echo $PWD
 echo "---------"
-git init
+# git init
 git add .
 git commit -m 'auto'
-git remote add origin https://github.com/Rexingleung/abc123.git
+# git remote add origin https://github.com/Rexingleung/abc123.git
 git push -u origin master -f
