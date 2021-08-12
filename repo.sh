@@ -1,11 +1,11 @@
 #! /bin/bash
 
 targetDir="/Users/wyleleung1/Documents/personal/Interview-guide-dist"
-originDir="/Users/wyleleung1/Documents/personal/Interview-guide/docs"
-rm -rf /Users/wyleleung1/Documents/personal/Interview-guide-dist/docs/*
+originDir="/Users/wyleleung1/Documents/personal/Interview-guide/dist"
+rm -rf /Users/wyleleung1/Documents/personal/Interview-guide-dist/dist/*
 cp -rf ${originDir} ${targetDir}
 cd ${targetDir}
-mv /Users/wyleleung1/Documents/personal/Interview-guide-dist/docs/* ./
+mv /Users/wyleleung1/Documents/personal/Interview-guide-dist/dist/* ./
 echo "---------"
 echo $PWD
 echo "---------"
